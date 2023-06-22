@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Food_Test_App
 //
-//  Created by Zaur on 03.04.2023.
+//  Created by Zaur on 22.06.2023.
 //
 
 import UIKit
@@ -10,7 +10,6 @@ import UIKit
 class FoodViewController: UIViewController {
     
     var presenter: FoodPresenterProtocol!
-    let networkService = NetworkDataFetcher()
     private let horizontalMenu = HorizontalMenu()
     
     let horizontalView: UIView = {
@@ -109,7 +108,6 @@ class FoodViewController: UIViewController {
     }
     
     private func layoutViews() {
-        
         let headerHeightConstraint = headerView.heightAnchor.constraint(equalToConstant: headerView.maxHeight)
         self.headerViewHeightConstraint = headerHeightConstraint
         

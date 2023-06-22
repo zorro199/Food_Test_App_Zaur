@@ -144,12 +144,12 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		C1C7329229DF78CC0045DFC8 /* Controllers */ = {
+		C1C7329229DF78CC0045DFC8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				C1C7329029DF47F30045DFC8 /* PizzaViewController.swift */,
 			);
-			path = Controllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		C1C922EF29DC95C10070CB08 /* FoodModule */ = {
@@ -190,7 +190,7 @@
 				C1C922FF29DCAAB60070CB08 /* CollectionViewBannersCell.swift */,
 				C12659C029DD97A100791419 /* MenuCollectionViewCell.swift */,
 				C12659CA29DDF8A900791419 /* FoodTableViewCell.swift */,
-				C1C7329229DF78CC0045DFC8 /* Controllers */,
+				C1C7329229DF78CC0045DFC8 /* ViewControllers */,
 			);
 			path = CellConfig;
 			sourceTree = "<group>";
